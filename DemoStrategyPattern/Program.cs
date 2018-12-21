@@ -12,12 +12,11 @@ namespace DemoStrategyPattern
             //Declaration
             var strategies = new Dictionary<EnumPerson, IPerson>
             {
-                {EnumPerson.Asian, new AsianPerson()},
-                { EnumPerson.Europe, new EuropePerson()}
+                { EnumPerson.Asian, new AsianPerson() },
+                { EnumPerson.Europe, new EuropePerson() }
             };
 
             //Action
-
             var param = new ParamModel
             {
                 Name = "Nam",
